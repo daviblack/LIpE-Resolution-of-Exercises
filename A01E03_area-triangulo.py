@@ -5,7 +5,7 @@ base = int( input("Insira o valor da base em cm: ") )
 altura = int( input("Insira o valor da altura em cm: ") )
 
 # Calculando a area
-area = base * altura
+area = (base * altura) / 2
 
 # %d é substituído pelo valor da variável área no formato inteiro
 print ("A área do triângulo é %d cm²" % area)
